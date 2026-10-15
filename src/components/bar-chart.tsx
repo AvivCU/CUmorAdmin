@@ -60,7 +60,7 @@ export default function BarChart({ data }: { data: BarChartDatum[] }) {
           return (
             <div
               key={d.label}
-              className="group relative flex min-w-0 flex-1 flex-col items-center justify-end"
+              className="group relative flex h-full min-w-0 flex-1 flex-col items-center justify-end"
               onMouseEnter={() => setHoverIndex(i)}
               onMouseLeave={() => setHoverIndex(null)}
             >
