@@ -138,11 +138,11 @@ export default function MediaManager({
       <div className="flex items-center justify-between">
         <div>
           <h1 className="text-2xl font-semibold text-zinc-900 dark:text-zinc-50">
-            Media
+            Captions
           </h1>
           <p className="mt-1 text-sm text-zinc-500 dark:text-zinc-400">
             {items.length} AI-generated caption{items.length === 1 ? "" : "s"}
-            . Full control.
+            . Admin can create / read / update / delete.
           </p>
         </div>
         <button
